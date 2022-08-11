@@ -1,0 +1,55 @@
+@media screen and (max-width:968px) {
+    .left-menu {
+        /*     display: none; */
+        position: absolute;
+        top: -200px;
+        transition: all 0.5s;
+    }
+    .right-menu {
+        /*     display: none; */
+        position: absolute;
+        top: -50px;
+        transition: all 0.6s;
+    }
+
+    .btn-nav-res {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-container nav {
+        justify-content: center;
+    }
+
+    .logo-container {
+        /*     background-color: #ccc; */
+        justify-content: space-around;
+        width: 80%;
+        margin-right: -60px;
+    } 
+
+}
+
+
+.responseLeft {
+    width: 80%;
+    /*   display: block; */
+    height: 60vh;
+    display: block;
+    top: 60px;
+    background-color: #fff;   
+
+}
+
+.responseRight{
+    width: 80%;
+    /*   display: block; */
+    /* height:40vh; */
+    display: block;
+    top: 150px;
+    background-color: transparent;
+   
+
+
+}
