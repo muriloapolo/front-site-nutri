@@ -1,20 +1,24 @@
 @media screen and (max-width:968px) {
-    .logo-container{
+    .logo-container {
         font-weight: 600;
     }
-    .nav-container nav{
-        justify-content: center ;
+
+    .nav-container nav {
+        justify-content: center;
     }
+
     .left-menu {
         /*     display: none; */
         position: absolute;
-        top: -200px;
+        top: -50px;
         transition: all 0.3s;
+
     }
+
     .right-menu {
         /*     display: none; */
         position: absolute;
-        top: -50px;
+        top: -100px;
         transition: all 0.4s;
     }
 
@@ -34,16 +38,17 @@
         width: 80%;
         margin-right: -60px;
         font-weight: 600;
-    } 
+    }
 
 }
 
-@media screen and (max-width: 450px){
-    .btn-nav-res{
+@media screen and (max-width: 450px) {
+    .btn-nav-res {
         padding: 10px;
         margin-left: 0;
     }
-    .logo-principal{
+
+    .logo-principal {
         font-weight: 600;
         width: 100%;
         font-size: 12vw;
@@ -78,29 +83,33 @@
     width: 80%;
     /*   display: block; */
     height: 25vh;
-    display: block;
+    display: flex;
     top: 60px;
-   background-color: var(--cor-neutra);
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column;
-   align-items: center;
-   padding-bottom: 10px;
+    background-color: var(--cor-neutra);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
-.responseRight{
+.responseRight {
     width: 80%;
-    display: block;
-    height: 60vh;
-    top: 190px;
+    display: flex;
+    height: 30vh;
+    top: 210px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
     /* background-color: transparent; */
 }
-.responseRight.rede-link{
-    width: 20%;
-    display: inline;
-  
+
+.responseRight > .horizontal {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
 }
