@@ -22,7 +22,7 @@
     }
 
     .left-menu li a, .right-menu li a{
-        padding: 5px 120px;
+        padding: 5px 20px;
         display: block;
         width: 100%;
     }
@@ -116,5 +116,6 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    
 
 }
