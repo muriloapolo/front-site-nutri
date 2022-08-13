@@ -133,6 +133,11 @@
         /* Fim Chamada principal */
     
 }
+@media screen and (max-width:320px) {
+    .info-top{
+        font-size: 0.6em;
+    } 
+}
 
 /* --------------- landscape------------------ */
 
