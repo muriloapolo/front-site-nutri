@@ -121,7 +121,10 @@
 
 
 @media screen and (max-width:320px) {   
-  
+  .info-top{
+    font-size: 0.6em;
+    letter-spacing: 0;
+  }
     /* Chamada principal */
     .texto-perfil h1{
         font-size:5vh;
