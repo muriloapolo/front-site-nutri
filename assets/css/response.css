@@ -26,6 +26,17 @@
     
 /* Fim Barra de Navegação responsiva */
 
+
+.img-perfil{
+    display: none;
+}
+
+.texto-perfil{           
+    width: 100%;      
+ 
+}
+
+
 }
 
 @media screen and (max-width:790px) {
@@ -49,8 +60,7 @@
     }
   
     .texto-perfil{           
-        width: 100%; 
-      
+        width: 100%;      
      
 }
     .texto-perfil h1{
@@ -107,15 +117,18 @@
 }
 
 
-@media screen and (max-width:330px) {   
+@media screen and (max-width:380px) {   
+    .info-top{
+        font-size: 0.8em;
+    }
     /* Chamada principal */
     .texto-perfil h1{
         font-size:5vh;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
     .texto-perfil p{
         font-size: 1.2em;
-        margin-bottom: 2em;
+        margin-bottom: 3em;
     }
         /* Fim Chamada principal */
     
