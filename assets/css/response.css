@@ -78,6 +78,9 @@
 }
 
 @media screen and (max-width: 450px) {
+    .info-top{
+        font-size: 0.8em;
+    }
         /* Barra de Navegação responsiva */
         .btn-nav-res {
             padding: 10px;
@@ -117,27 +120,21 @@
 }
 
 
-@media screen and (max-width:380px) {   
-    .info-top{
-        font-size: 0.8em;
-    }
+@media screen and (max-width:320px) {   
+  
     /* Chamada principal */
     .texto-perfil h1{
         font-size:5vh;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     .texto-perfil p{
         font-size: 1.2em;
-        margin-bottom: 3em;
+        margin-bottom: 1em;
     }
         /* Fim Chamada principal */
     
 }
-@media screen and (max-width:320px) {
-    .info-top{
-        font-size: 0.6em;
-    } 
-}
+
 
 /* --------------- landscape------------------ */
 
