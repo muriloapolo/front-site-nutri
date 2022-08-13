@@ -23,6 +23,8 @@
 body {
     background-color: rgb(190, 182, 182);
     max-width: 1444px;
+    height: 100%;
+  width: 100%;
     margin: 0 auto;
 }
 /* Main container */
@@ -73,6 +75,7 @@ body {
     box-shadow: rgba(128, 95, 95, 0.945) 0 1px 10px;
     border-collapse: collapse;
     z-index: 1;
+    margin-bottom: 20px;
 }
 
 .nav-container nav {
