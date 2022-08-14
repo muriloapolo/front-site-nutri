@@ -1,20 +1,24 @@
 @media screen and (max-width:968px) {
-/* Barra de Navegação responsiva */
+
+    /* Barra de Navegação responsiva */
     .logo-container {
         font-weight: 600;
     }
+
     .nav-container nav {
         justify-content: center;
     }
 
-    .left-menu, .right-menu {  
+    .left-menu,
+    .right-menu {
         display: none;
         position: absolute;
         top: -999px;
         transition: all 0.3s;
-    } 
+    }
 
-    .left-menu li a, .right-menu li a{
+    .left-menu li a,
+    .right-menu li a {
         padding: 5px 20px;
         display: block;
         width: 100%;
@@ -23,119 +27,153 @@
     .btn-nav-res {
         display: block;
     }
-    
-/* Fim Barra de Navegação responsiva */
+
+    /* Fim Barra de Navegação responsiva */
 
 
-.img-perfil{
-    display: none;
-}
+    .img-perfil {
+        display: none;
+    }
 
-.texto-perfil{           
-    width: 100%;      
- 
-}
+    .texto-perfil {
+        width: 100%;
+
+    }
 
 
 }
 
 @media screen and (max-width:790px) {
 
-        /* Barra de Navegação responsiva */
-        .nav-container nav {
-            justify-content: space-around;
-        }
-        
-    .logo-container {    
+    /* Barra de Navegação responsiva */
+    .nav-container nav {
+        justify-content: space-around;
+    }
+
+    .logo-container {
         justify-content: space-around;
         width: 80%;
         margin-right: -60px;
         font-weight: 600;
     }
+
     /* Fim Barra de Navegação responsiva */
 
     /* Chamada principal */
-    .img-perfil{
+    .img-perfil {
         display: none;
     }
-  
-    .texto-perfil{           
-        width: 100%;      
-     
-}
-    .texto-perfil h1{
-        font-size:6.5vh;
+
+    .texto-perfil {
+        width: 100%;
+
+    }
+
+    .texto-perfil h1 {
+        font-size: 6.5vh;
         margin-bottom: 1em;
     }
-    .texto-perfil p{
+
+    .texto-perfil p {
         font-size: 1.4em;
     }
-    .btn-chamada-container{
+
+    .btn-chamada-container {
         margin-top: 1em;
-    }  
+    }
+
     /* Fim Chamada principal */
-    
+
+    .question {
+        font-size: 3em;
+        margin-bottom: 3em;
+    }
+
+
+
 }
 
 @media screen and (max-width: 450px) {
-    .info-top{
+    .info-top {
         font-size: 0.8em;
     }
-        /* Barra de Navegação responsiva */
-        .btn-nav-res {
-            padding: 10px;
-            margin-left: 0;
-        }
-        .logo-principal {
-            font-weight: 600;
-            width: 100%;
-            font-size: 12vw;
-            margin-left: -35px;
-        }
-        /* Fim Barra de Navegação responsiva */
 
-        /* Chamada principal */
-        .img-perfil{
-            display: none;
-        }
-        .texto-perfil{           
-            width: 100%; 
-            height: 100%;
-         
- }
-        .texto-perfil h1{
-            font-size:6vh;
-            margin-bottom: 1em;
-        }
-        .texto-perfil p{
-            font-size: 1.5em;
-        }
-        .btn-chamada-container{
-            margin-top: 0.5em;
-        }
-        .btn-chamada{
-            padding: 15px 20px;
-        }
-            /* fim Chamada principal */
+    /* Barra de Navegação responsiva */
+    .btn-nav-res {
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .logo-principal {
+        font-weight: 600;
+        width: 100%;
+        font-size: 12vw;
+        margin-left: -35px;
+    }
+
+    /* Fim Barra de Navegação responsiva */
+
+    /* Chamada principal */
+    .img-perfil {
+        display: none;
+    }
+
+    .texto-perfil {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .texto-perfil h1 {
+        font-size: 6vh;
+        margin-bottom: 1em;
+    }
+
+    .texto-perfil p {
+        font-size: 1.5em;
+    }
+
+    .btn-chamada-container {
+        margin-top: 0.5em;
+    }
+
+    .btn-chamada {
+        padding: 15px 20px;
+    }
+
+    /* fim Chamada principal */
+
+
+    .question {
+        font-size: 2em;
+        margin-bottom: 5em;
+    }
+
+    .cards-questions {
+        flex-direction: column;
+    }
 }
 
 
-@media screen and (max-width:320px) {   
-  .info-top{
-    font-size: 0.6em;
-    letter-spacing: 0;
-  }
+@media screen and (max-width:320px) {
+    .info-top {
+        font-size: 0.6em;
+        letter-spacing: 0;
+    }
+
     /* Chamada principal */
-    .texto-perfil h1{
-        font-size:5vh;
+    .texto-perfil h1 {
+        font-size: 5vh;
         margin-bottom: 1em;
     }
-    .texto-perfil p{
+
+    .texto-perfil p {
         font-size: 1.2em;
         margin-bottom: 1em;
     }
-        /* Fim Chamada principal */
-    
+
+    /* Fim Chamada principal */
+
 }
 
 
@@ -157,7 +195,7 @@
 
 /* Responsividade ul esquerda e direita */
 .responseLeft {
-    width: 80%;  
+    width: 80%;
     height: 180px;
     display: flex;
     top: 65px;
@@ -178,33 +216,13 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-   
+
 }
 
-.responseRight > .horizontal {
+.responseRight>.horizontal {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: center;  
+    align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

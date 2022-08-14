@@ -275,11 +275,12 @@ body {
 }
 
 .question {
-    width: 100%;
-    height: 30px;
+    /* border: 1px solid; */
+    width: 100%;   
     /* font-size: 3em; */
-    font-size: 2em;
-    margin: 100px 0 250px 0;
+    font-size: 4em;
+    /* margin: 100px 0 200px 0; */
+    margin: 5% 0 15% 0;
     text-align: center;
     font-family: var(--fonte-textos);
     color: var(--cor-neutra);
@@ -297,8 +298,9 @@ body {
     flex-wrap: wrap;
 }
 .card-body{
-
-    width: 200px;
+    border: 1px solid;
+    width: 30%;
+    min-width: 320px;
     height: 450px;
     display: flex;
     justify-content: center;
@@ -306,18 +308,20 @@ body {
     /* margin-top: -150px; */
     align-items: center;
     transform: translateY(-120px);
+    margin-bottom: 30px;
 }
 
 .img-card {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    min-width: 300px;   
     border-radius: 50%;
     overflow: hidden;
     outline: 10px solid #f9f4f0;
 }
 
 .img-card img {
-    width: 400px;
+    width: 450px;
+    /* width: 100%; */
 }
 .text-card{
     height: 40%;
