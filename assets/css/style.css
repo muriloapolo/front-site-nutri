@@ -229,7 +229,6 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 10px;
-    border: none;
     color: var(--cor-neutra);
     opacity: 1;
     transition: opacity 0.5s;
@@ -275,11 +274,11 @@ body {
 }
 
 .question {
-    /* border: 1px solid; */
-    width: 100%;   
-    /* font-size: 3em; */
+
+    width: 100%;
+
     font-size: 4em;
-    /* margin: 100px 0 200px 0; */
+
     margin: 5% 0 15% 0;
     text-align: center;
     font-family: var(--fonte-textos);
@@ -291,14 +290,15 @@ body {
     height: 100%;
     background-image: url(../img/bag-of-groceries-with-copy-space.jpg);
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-.card-body{
-    border: 1px solid;
+
+.card-body {
+
     width: 30%;
     min-width: 320px;
     height: 450px;
@@ -313,7 +313,8 @@ body {
 
 .img-card {
     width: 300px;
-    min-width: 300px;   
+    min-width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     outline: 10px solid #f9f4f0;
@@ -323,8 +324,68 @@ body {
     width: 450px;
     /* width: 100%; */
 }
-.text-card{
+
+.text-card {
     height: 40%;
     font-size: 1.2em;
     backdrop-filter: blur(8px);
+    padding: 5px;
+    font-family: var(--fonte-textos); 
+}
+
+
+/* Call to action */
+.call-action {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--cor-secundaria);
+    
+}
+
+.info-action {
+    width: 45%;
+    padding: 1em;
+ 
+
+}
+.info-action p{
+    font-size: 1.4em;
+    font-family: var(--fonte-textos);
+    color: #000000;
+}
+
+.whats-button {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    background-color: rgb(27, 182, 27);
+    color: var(--cor-neutra);
+    padding: 30px 50px;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-shadow: 1px 1px 20px var(--cor-secundaria);
+    box-shadow: 1px 1px 20px rgb(27, 182, 27);
+    font-family: var(--fonte-links);
+    margin-bottom: 20px;
+}
+.whats-button a:hover{
+    box-shadow: 0 1px 20px var(--cor-neutra);
+    color: var(--cor-principal);
+}
+
+.whats-button a i {
+    font-size: 2em;
+    text-align: center;
+    margin-right: 12px;
+
 }

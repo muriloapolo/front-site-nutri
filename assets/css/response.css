@@ -88,8 +88,18 @@
         font-size: 3em;
         margin-bottom: 3em;
     }
+    /*  call to action*/
 
+    .call-action{       
+        flex-direction: column;
+    }
+    .info-action{
+        width: 100%;
+    }
 
+    .whats-button{
+        width: 100%;
+    }
 
 }
 
@@ -125,7 +135,9 @@
     }
 
     .texto-perfil h1 {
-        font-size: 6vh;
+        /* font-size: 6vh; */
+        font-size: 1.8em;
+        text-shadow: 0px 1px 1px rgb(7, 0, 0);
         margin-bottom: 1em;
     }
 
@@ -174,23 +186,26 @@
 
     /* Fim Chamada principal */
 
+
+     /* ACTION */
+
+
+
+     .info-action{
+        padding: 5px;
+     }
+     .info-action p{
+        font-size: 1em;
+     }
+     .whats-button a{
+        font-size: 1.5em;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+     }
+
 }
 
 
-/* --------------- landscape------------------ */
-
-/* @media screen and (orientation: landscape) {
-    .texto-perfil h1{
-        font-size:2.4em;
-        margin-bottom: 1em;
-    }
-    .img-perfil{
-        display: none;
-    }
-    .texto-perfil{
-        width: 100%;
-    }
-} */
 
 
 /* Responsividade ul esquerda e direita */
