@@ -101,6 +101,16 @@
         width: 100%;
     }
 
+    /* Footer */
+.footer{
+    grid-template-areas: "menu-footer"
+    "contato-footer"
+    "redes-footer"
+    "copy-footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr auto;
+}
+
 }
 
 @media screen and (max-width: 450px) {
