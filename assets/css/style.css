@@ -133,16 +133,18 @@ body {
     width: 25%;
     justify-content: space-around;
     font-family: var(--fonte-links);
-    font-size: 1.5em;
+    
     background-color: var(--cor-neutra);
 }
 
 .links-nav,
 .rede-link {
+    font-size: 1.7em;
     text-decoration: none;
     color: var(--cor-principal);
     margin-right: 10px;
     padding: 5px;
+    letter-spacing: 1px;
 }
 
 .links-nav:hover,
@@ -225,7 +227,7 @@ body {
     border-radius: 30px;
     background-color: #47323286;
     padding: 20px;
-    font-weight: 300;
+   
 
 
 }
@@ -235,16 +237,16 @@ body {
     font-size: 2.8em;
     margin-bottom: 1em;
     color: #fff;
-    
-  
+
+
 
 }
 
 .texto-perfil p {
     font-family: var(--fonte-textos);
     font-size: 1.5em;
-    color: #fff;    
-    font-weight: 600;
+    color: #fff;
+    font-weight: 300;
 }
 
 .btn-chamada-container {
@@ -261,7 +263,7 @@ body {
     font-family: var(--fonte-textos);
     text-decoration: none;
     background-color: var(--cor-principal);
-    padding: 20px 30px;
+    padding: 25px 60px;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 10px;
@@ -269,6 +271,7 @@ body {
     opacity: 1;
     transition: opacity 0.5s;
     box-shadow: 0 0 10px rgb(59, 58, 58);
+    font-size: 1.3em;
 }
 
 
@@ -418,7 +421,7 @@ body {
     font-size: 2em;
     background-color: rgb(27, 182, 27);
     color: var(--cor-neutra);
-    padding: 30px 50px;
+    padding: 5% 12%;
     border-radius: 5px;
     white-space: nowrap;
     box-shadow: 1px 1px 25px rgb(87, 85, 85);
@@ -507,32 +510,36 @@ footer {
     text-transform: capitalize;
     font-family: var(--fonte-links);
     font-size: 1.7em;
+    letter-spacing: 0.1em;
 
 }
 
 .contato-footer {
     grid-area: contato-footer;
     color: var(--cor-neutra);
-   font-family: var(--fonte-poppins);
-    text-transform: uppercase
-}
-
-.contato-footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: left;
+    font-family: var(--fonte-poppins);
+    text-transform: uppercase;
+    place-items: center;
+    margin: 0 auto;
+  height: 100%;
 
 }
-.contato-footer ul li{
-    padding-left: 30%;
-}
-.contato-footer h3, .contato-footer h4{
+
+
+
+.contato-footer h3,
+.contato-footer h4 {
     font-size: 1.3em;
-    padding-left: 30%;
+    /* padding-left: 30%; */
     color: var(--cor-neutra);
-    margin-bottom: 10px;  
+    margin-bottom: 10px;   
 }
-.contato-footer h4{
+.contato-footer h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contato-footer h4 {
     color: #000000;
     text-shadow: 1px 1px 10px #9e9696;
 }
@@ -560,7 +567,7 @@ footer {
     font-size: 2em;
 }
 
-.footer a:hover{
+.footer a:hover {
     color: var(--cor-principal);
     transition: all 0.5s;
 }
@@ -570,5 +577,5 @@ footer {
     grid-area: copy-footer;
     font-family: var(--fonte-poppins);
     text-align: center;
-    font-size: 3vh;
+    font-size: 0.8em;
 }
