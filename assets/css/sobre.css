@@ -7,4 +7,14 @@
     font-family: var(--fonte-lora);
     font-size: 4em;
     text-align: center;
+    margin-bottom: 50px;
+}
+.sobre-info-page h2{
+    font-family: var(--fonte-textos);
+    margin-bottom: 20px;
+   
+}
+.sobre-textos{
+    font-family: var(--fonte-textos);
+    font-size: 1.2em;
 }

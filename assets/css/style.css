@@ -50,7 +50,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    text-rendering: geometricPrecision;
+
 
 }
 
@@ -70,7 +70,7 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: var(--cor-principal);
-    position: relative;
+ 
     
 
 
@@ -115,6 +115,7 @@ body {
     border-collapse: collapse;
     margin-bottom: 20px;
     box-shadow: 1px 10px 10px 10pxvar(--cor-principal);  
+    position: relative;
 }
 
 .nav-container nav {
@@ -136,6 +137,7 @@ body {
     justify-content: space-around;
     font-family: var(--fonte-links);
     background-color: var(--cor-neutra);
+    z-index: 2;
 }
 
 .links-nav,
@@ -669,3 +671,23 @@ footer {
 
 
 /* SOBRE - SECTION */
+.sobre-info-page{
+    color: var(--cor-neutra);
+    padding: 20px;
+}
+
+.sobre-info-page h1{
+    font-family: var(--fonte-lora);
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sobre-info-page h2{
+    font-family: var(--fonte-textos);
+    margin-bottom: 20px;
+   
+}
+.sobre-textos{
+    font-family: var(--fonte-textos);
+    font-size: 1.2em;
+}
