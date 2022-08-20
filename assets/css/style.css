@@ -33,13 +33,16 @@ font-family: 'Raleway', sans-serif;
     --fonte-textos: 'Raleway', sans-serif;
 }
 
-* {
+*, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
+    /* font-size: 18px; */
 }
+
+ 
+
 
 body {
     background-color: rgb(190, 182, 182);
@@ -48,6 +51,7 @@ body {
     width: 100%;
     margin: 0 auto;
     text-rendering: geometricPrecision;
+
 }
 
 /* Main Classes uso comun */
@@ -66,6 +70,8 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: var(--cor-principal);
+    position: relative;
+    
 
 
 
@@ -78,6 +84,8 @@ body {
     margin-bottom: 20px;
     width: 100%;
     text-align: right;
+
+
 }
 
 .info-top a {
@@ -106,17 +114,17 @@ body {
     border-radius: 30px;
     border-collapse: collapse;
     margin-bottom: 20px;
-    box-shadow: 1px 10px 10px 10pxvar(--cor-principal);
+    box-shadow: 1px 10px 10px 10pxvar(--cor-principal);  
 }
 
 .nav-container nav {
-    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 100%;
     z-index: 100;
+
 
 }
 
@@ -132,7 +140,7 @@ body {
 
 .links-nav,
 .rede-link {
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-decoration: none;
     color: var(--cor-principal);
     margin-right: 10px;
@@ -420,7 +428,7 @@ body {
 
 
 
-/* FOOTER */
+/* FOOTER geral */
 
 footer {
     width: 100%;
@@ -555,14 +563,16 @@ footer {
 /* 
 ***************INFORMAÇÕES****************
 */
-
-
-.section-info {
-    backdrop-filter: blur(10px);
+#informacoes{
+ 
     background-image: url(../img/low-dark.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section-info {
+
 
     /* background-attachment: fixed; */
     padding: 80px 10px 20px 10px;
@@ -576,12 +586,12 @@ footer {
 }
 
 .section-info li {
-    border: 1px solid;
-    margin: 0 auto 20px auto;
     list-style-type: none;
     background-image: url(../logo-icon/lista-ico-info.png);
     background-repeat: no-repeat;
     background-position: left center;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto 20px auto;
     padding: 20px 0 20px 60px;
     width: 90%;
     font-size: 1.2em;
@@ -593,5 +603,69 @@ footer {
 
 .section-info article{
     border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.048) ;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 50px 10px 50px 10px;
 
 }
+.footer-informacoes {
+    background-image: none;
+    background-color: transparent;
+}
+
+
+.detalhes p{
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-family: var(--fonte-poppins);
+    color: #fff;
+    text-shadow: 0px 1px 1px #000000;
+    line-height: 30px;
+}
+
+/* BLOG */
+
+
+.blog-temp{
+    width: 100vw;
+    height: 100vh;
+    color: var(--cor-neutra);
+    background: linear-gradient(179deg, var(--cor-principal),var(--cor-neutra));
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;   
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+.blog-temp h1{
+    font-size: 10vw;
+    text-align: center;
+    font-family: var(--fonte-lora); 
+}
+
+.blog-temp p{
+    font-size: 6vh;    
+    font-weight: 900;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
+
+
+/* SOBRE - SECTION */

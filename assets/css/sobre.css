@@ -1,0 +1,10 @@
+.sobre-info-page{
+    color: var(--cor-neutra);
+    padding: 20px;
+}
+
+.sobre-info-page h1{
+    font-family: var(--fonte-lora);
+    font-size: 4em;
+    text-align: center;
+}
