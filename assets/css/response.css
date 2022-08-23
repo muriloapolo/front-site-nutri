@@ -14,7 +14,7 @@
         display: none;
         position: absolute;
         top: -999px;
-        transition: all 0.3s;
+       
     }
 
     .left-menu li a,
@@ -40,6 +40,18 @@
 
     }
 
+    /* Sobre*/
+    .container-sobre{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+.img-perfil-sobre{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.sobre-textos{
+    width: 100%;
+}
 
 }
 
@@ -196,6 +208,11 @@
         font-size: 0.9em;
     }
 
+    /* sobre */
+    .sobre-info-page h1{
+        font-size: 2.6em;
+    }
+
 }
 
 
@@ -236,6 +253,12 @@
     font-size: 2.5vh;
   }
 
+
+  /* Sobre */
+  .sobre-info-page h1{
+    font-size: 2.1em;
+}
+
 }
 
 
@@ -275,5 +298,5 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    transition: all 0.5s;
+  
 }
