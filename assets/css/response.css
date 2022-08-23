@@ -253,6 +253,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 15px;
+    transition: all 0.5s;
 }
 
 .responseRight {
@@ -264,6 +265,7 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    transition: all 0.5s;
 
 }
 
@@ -273,4 +275,5 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    transition: all 0.5s;
 }
