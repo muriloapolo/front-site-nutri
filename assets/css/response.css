@@ -110,7 +110,10 @@
     }
 
     .whats-button{
-        width: 100%;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     /* Footer */
@@ -212,6 +215,10 @@
     .sobre-info-page h1{
         font-size: 2.6em;
     }
+/*Botão voltar ao topo */
+    .btn-top-navigation a{
+        left: 99999999px;
+    }
 
 }
 
@@ -220,6 +227,10 @@
     .info-top {
         font-size: 0.6em;
         letter-spacing: 0;
+    }
+    .rede-link {      
+       text-align: center;
+        font-size: 1.3em;
     }
 
     /* Chamada principal */
@@ -246,6 +257,9 @@
      .info-action p{
         font-size: 1em;
      }
+     .whats-button a{
+        padding: 10px 12px 10px 12px;
+     }
   /* informações */
 
   .section-info .info-contato-detalhe ul li:last-child{
@@ -258,7 +272,10 @@
   .sobre-info-page h1{
     font-size: 2.1em;
 }
-
+/*IFORMAÇÔES*/
+.atendimento h2{
+    font-size: 2.1em;
+}
 }
 
 
@@ -295,7 +312,7 @@
 .responseRight>.horizontal {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
   

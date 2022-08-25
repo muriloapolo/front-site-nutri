@@ -39,6 +39,7 @@ font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
     /* font-size: 18px; */
+    
 }
 
  
@@ -69,6 +70,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
     background-color: var(--cor-principal);
  
     
@@ -375,6 +377,7 @@ body {
 
 /* Call to action */
 .call-action {
+    position: relative;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -428,9 +431,54 @@ body {
     margin-right: 12px;
 
 }
+.top-link-back{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    color: var(--cor-neutra);
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    border-radius:50% ;
+    text-decoration: none;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
 
+    @keyframes bounce {
+        0%, 20%, 53%, 80%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        }
+        40%, 43% {
+        -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+        }
+        70% {
+        -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+        }
+        90% { -webkit-transform: translate3d(0,-4px,0); transform: translate3d(0,-4px,0);
+        }
+        } 
 
-
+        /*https://www.theappguruz.com/tag-tools/web/CSSAnimations/ */
 /* FOOTER geral */
 
 footer {
