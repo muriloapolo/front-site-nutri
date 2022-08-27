@@ -1,34 +1,28 @@
 @media screen and (max-width:968px) {
-
     /* Barra de Navegação responsiva */
     .logo-container {
         font-weight: 600;
     }
-
     .nav-container nav {
         justify-content: center;
     }
-
     .left-menu,
     .right-menu {
         display: none;
         position: absolute;
         top: -999px;
-       
     }
-
     .left-menu li a,
     .right-menu li a {
         padding: 5px 20px;
         display: block;
         width: 100%;
     }
-
     .btn-nav-res {
         display: block;
     }
-
-    /* Fim Barra de Navegação responsiva */
+    
+    /*  */
 
 
     .img-perfil {

@@ -599,7 +599,7 @@ footer {
 
 .rede-footer-link:hover {
     color: var(--cor-principal);   
-    text-shadow: 0 0 2px rgb(255, 254, 254), 0 0 15px rgb(3, 3, 3);
+    text-shadow: 0 0 2px rgb(255, 254, 254), 0 0 15px rgb(255, 253, 253);
 }
 .rede-footer-link {
     padding: 20px;
