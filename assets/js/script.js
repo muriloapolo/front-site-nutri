@@ -1,3 +1,6 @@
+//LiveReload Script
+
+
 //  NAVBAR RESPONSIVA
 const btnNav = document.querySelector('.btn-nav-res');
 const btnNavClose = document.querySelector('.btn-nav-res-close')
@@ -25,3 +28,5 @@ window.onresize = function(){
     }
 }
 //  FIM NAVBAR RESPONSIVA
+
+

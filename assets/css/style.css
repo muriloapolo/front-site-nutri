@@ -153,9 +153,14 @@ body {
     letter-spacing: 1px;
 }
 
-.links-nav:hover,
-.rede-link:hover {
+.links-nav:hover{
     color: var(--cor-secundaria);
+    text-shadow: 0 1px 2px rgba(253, 24, 24, 0.274);
+}
+.rede-link:hover {
+    color: var(--cor-neutra);
+    text-shadow: 0 0 5px #fff, 0 0 2px #000;
+    
 }
 
 .horizontal {
@@ -324,7 +329,7 @@ body {
 .cards-questions {
     width: 100%;
     height: 100%;
-    background-image: url(../img/bag-of-groceries-with-copy-space.jpg);
+    background-image: url(../img/bagWhite.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -349,6 +354,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     outline: 10px solid var(--cor-neutra);
+
 }
 
 .img-card img {
@@ -487,7 +493,7 @@ footer {
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     background-color: #18200e;
-    background-image: url(../img/footerbg.png);
+    background-image: url(../img/footerbg.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -591,6 +597,10 @@ footer {
     justify-content: space-around;
 }
 
+.rede-footer-link:hover {
+    color: var(--cor-principal);   
+    text-shadow: 0 0 2px rgb(255, 254, 254), 0 0 15px rgb(3, 3, 3);
+}
 .rede-footer-link {
     padding: 20px;
     text-decoration: none;
@@ -599,8 +609,8 @@ footer {
 }
 
 .footer a:hover {
-    color: var(--cor-principal);
-    transition: all 0.5s;
+  color: var(--cor-principal);   
+    transition: all 0.2s;
 }
 
 .copy-footer {
@@ -616,7 +626,7 @@ footer {
 */
 #informacoes{
  
-    background-image: url(../img/low-dark.png);
+    background-image: url(../img/low-dark.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
