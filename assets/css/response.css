@@ -1,51 +1,55 @@
 @media screen and (max-width:968px) {
+
     /* Barra de Navegação responsiva */
     .logo-container {
         font-weight: 600;
     }
+
     .nav-container nav {
         justify-content: center;
     }
+
     .left-menu,
     .right-menu {
         display: none;
         position: absolute;
         top: -999px;
     }
+
     .left-menu li a,
     .right-menu li a {
         padding: 5px 20px;
         display: block;
         width: 100%;
     }
+
     .btn-nav-res {
         display: block;
     }
-    
-    /*  */
 
-
+    /* <!-- Chamada Principal --> */
     .img-perfil {
         display: none;
     }
 
     .texto-perfil {
         width: 100%;
-
     }
 
     /* Sobre*/
-    .container-sobre{
+    .container-sobre {
         flex-direction: column;
         flex-wrap: wrap;
     }
-.img-perfil-sobre{
-    width: 100%;
-    margin-bottom: 50px;
-}
-.sobre-textos{
-    width: 100%;
-}
+
+    .img-perfil-sobre {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .sobre-textos {
+        width: 100%;
+    }
 
 }
 
@@ -72,7 +76,6 @@
 
     .texto-perfil {
         width: 100%;
-
     }
 
     .texto-perfil h1 {
@@ -90,20 +93,23 @@
 
     /* Fim Chamada principal */
 
+    /* <!-- CARDS - QUESTION --> */
     .question {
         font-size: 3em;
         margin-bottom: 3em;
     }
-    /*  call to action*/
 
-    .call-action{       
+    /*  SECTION CALL TO ACTION */
+
+    .call-action {
         flex-direction: column;
     }
-    .info-action{
+
+    .info-action {
         width: 100%;
     }
 
-    .whats-button{
+    .whats-button {
         width: 90%;
         justify-content: center;
         align-items: center;
@@ -111,18 +117,19 @@
     }
 
     /* Footer */
-.footer{
-    grid-template-areas: "menu-footer"
-    "contato-footer"
-    "redes-footer"
-    "copy-footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr auto;
-}
-
+    .footer {
+        grid-template-areas: "menu-footer"
+            "contato-footer"
+            "redes-footer"
+            "copy-footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr auto;
+    }
 }
 
 @media screen and (max-width: 450px) {
+
+    /*  <!-- Topo site telefones --> */
     .info-top {
         font-size: 0.8em;
     }
@@ -136,7 +143,8 @@
     .logo-principal {
         font-weight: 600;
         width: 100%;
-        font-size: 12vw;
+        font-size: 2.4em;
+        font-size: 11vw;
         margin-left: -35px;
     }
 
@@ -150,14 +158,14 @@
     .texto-perfil {
         width: 100%;
         height: 100%;
-
     }
 
     .texto-perfil h1 {
-        /* font-size: 6vh; */
-        font-size: 1.8em;
+        font-size: 2.4em;
+        font-size: 5vh;
         text-shadow: 0px 1px 1px rgb(7, 0, 0);
         margin-bottom: 1em;
+        text-align: center;
     }
 
     .texto-perfil p {
@@ -174,7 +182,7 @@
 
     /* fim Chamada principal */
 
-
+    /*  <!-- CARDS - QUESTION --> */
     .question {
         font-size: 2em;
         margin-bottom: 5em;
@@ -183,34 +191,36 @@
     .cards-questions {
         flex-direction: column;
     }
-    /* Informacoes */
-    .section-info h2{
-       margin-bottom: 50px;
+
+    /*  <!-- Informações - Conteúdo Principal --> */
+    .section-info h2 {
+        margin-bottom: 50px;
     }
-    .info-contato-detalhe{
+
+    .info-contato-detalhe {
         margin: 0;
     }
-    .info-contato-detalhe{
 
+    .info-contato-detalhe {
         padding: 0;
     }
-    .section-info .info-contato-detalhe ul li{
-       
+
+    .section-info .info-contato-detalhe ul li {
         background-position: center center;
         background-position-x: center;
         background-position-y: top;
-
         padding: 50px 0 20px 0;
         text-align: center;
         font-size: 0.9em;
     }
 
-    /* sobre */
-    .sobre-info-page h1{
+    /* SOBRE */
+    .sobre-info-page h1 {
         font-size: 2.6em;
     }
-/*Botão voltar ao topo */
-    .btn-top-navigation a{
+
+    /*Botão voltar ao topo */
+    .btn-top-navigation a {
         left: 99999999px;
     }
 
@@ -218,12 +228,17 @@
 
 
 @media screen and (max-width:320px) {
+
+    /* <!-- Topo site telefones --> */
     .info-top {
         font-size: 0.6em;
         letter-spacing: 0;
+        margin: 0;
+        padding: 0 10px 10px 0;
     }
-    .rede-link {      
-       text-align: center;
+
+    .rede-link {
+        text-align: center;
         font-size: 1.3em;
     }
 
@@ -241,35 +256,42 @@
     /* Fim Chamada principal */
 
 
-     /* ACTION */
-
-
-
-     .info-action{
+    /*  <!-- SECTION CALL TO ACTION --> */
+    .info-action {
         padding: 5px;
-     }
-     .info-action p{
+    }
+
+    .info-action p {
         font-size: 1em;
-     }
-     .whats-button a{
+    }
+
+    .whats-button a {
         padding: 10px 12px 10px 12px;
-     }
-  /* informações */
+    }
 
-  .section-info .info-contato-detalhe ul li:last-child{
-    /* font-size: 0.7em; */
-    font-size: 2.5vh;
-  }
+    /* <!-- Informações - Conteúdo Principal --> */
 
+    .section-info .info-contato-detalhe ul li:last-child {
 
-  /* Sobre */
-  .sobre-info-page h1{
-    font-size: 2.1em;
-}
-/*IFORMAÇÔES*/
-.atendimento h2{
-    font-size: 2.1em;
-}
+        font-size: 2.4vh;
+    }
+
+    /*IFORMAÇÔES*/
+    .atendimento h2 {
+        font-size: 2.3em;
+    }
+    .meios-atendimento h2{
+        font-size: 2.6em;
+    }
+    .detalhes h2 {
+        font-size: 2.7em;
+    }
+
+    /*  <!-- Sobre - Conteúdo Principal --> */
+    .sobre-info-page h1 {
+        font-size: 2.1em;
+    }
+
 }
 
 
@@ -295,19 +317,20 @@
     display: flex;
     height: 244px;
     top: 220px;
-    
+
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     transition: all 0.5s;
 }
-.responseRight li a{
+
+.responseRight li a {
     margin: 0;
 }
 
 .responseRight>.horizontal {
     justify-content: space-evenly;
     flex-direction: row;
-    
-  
+
+
 }
